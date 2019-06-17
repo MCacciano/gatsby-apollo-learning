@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "graphql layer for xivapi",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Michael Cacciano",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-datasource-rest": "^0.5.0",
+    "apollo-server": "^2.6.3",
+    "graphql": "^14.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
