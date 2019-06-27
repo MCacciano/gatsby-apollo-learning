@@ -12,6 +12,7 @@ module.exports = {
         lodestoneID,
         getMembers
       });
+      console.log(freeCompany);
       return freeCompany;
     },
     members: async (_, { name, server }, { dataSources }) => {

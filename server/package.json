@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "client:dev": "npm run develop --prefix ../client"
   },
   "author": "Michael Cacciano",
   "license": "MIT",

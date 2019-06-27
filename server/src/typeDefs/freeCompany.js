@@ -24,6 +24,7 @@ const freeCompanyType = gql`
     Estate: Estate
     Focus: [Focus]
     Formed: Int
+    FreeCompanyMembers: [FreeCompanyMember!]!
     GrandCompany: String
     ID: String
     Name: String
